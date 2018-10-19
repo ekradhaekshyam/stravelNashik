@@ -1,0 +1,222 @@
+
+body{
+    background-color: #fff;
+}
+
+/*! Columns*/
+
+.box{
+background-color: #Fff;
+padding: 30px 30px 30px;
+border: 1px solid #E9E9E9;
+}
+
+.pbt{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.txt{
+    text-align: center;
+}
+
+/*! centered header*/
+.head-center{
+    text-align: center;
+    font-color:#696969;
+    font-size: 16px;
+    }
+    
+    .head-center h2 {
+        text-transform: none;
+    }
+    
+/*! divider*/
+.divider-border {
+margin: 25px 0px 25px 0px;
+border-bottom: 1px solid #ddd
+}
+.divider-small-border {
+margin: 25px auto 25px auto;
+width: 20%;
+border-bottom: 1px solid #ddd;
+}
+
+
+.panel-heading{border-radius: 0;}
+/*! buttons*/
+.btn.button{border-radius: 0;color: #fff; margin-bottom: 22px;box-shadow: 0 -2px rgba(0, 0, 0, 0.2) inset;border: 0px;}
+.btn{border-radius: 0;}
+
+.btn-large{
+    font-size: 18px;
+    padding: 10px 30px 10px;
+}
+.btn-medium{
+   font-size: 16px;
+   padding: 8px 20px 8px;
+   margin: 10px;
+}
+.btn-small{
+    font-size: 12px;
+    padding: 6px 17px 6px;
+    margin: 10px;
+}
+
+/*! pricing columns*/
+
+@media (max-width: 689px){
+.pricing-table.six-cols > div { width: 100%; }
+.pricing-table.five-cols > div { width: 100%; }
+.pricing-table.four-cols > div { width: 100%; }
+.pricing-table.three-cols > div { width: 100%; }
+.pricing-table.two-cols > div { width: 100%; }
+}
+
+@media (min-width: 690px){
+.pricing-table.six-cols > div { width: 350%; }
+.pricing-table.five-cols > div { width: 50%; }
+.pricing-table.four-cols > div { width: 50%; }
+.pricing-table.three-cols > div { width: 50%; }
+.pricing-table.two-cols > div { width: 50%; }
+}
+
+@media (min-width: 1000px){
+.pricing-table.six-cols > div { width: 16.5%; }
+.pricing-table.five-cols > div { width: 20%; }
+.pricing-table.four-cols > div { width: 25%; }
+.pricing-table.three-cols > div { width: 33.2%; }
+.pricing-table.two-cols > div { width: 50%; }
+}
+
+
+.pricing-table.three-cols {max-width: 1000px; margin: 40px auto 40px auto;}
+.pricing-table.two-cols {max-width: 700px; margin:40px auto 40px auto;}
+
+
+
+.pricing-table {
+	margin-top: 60px;	
+	margin-bottom: 30px;
+}
+
+
+.pricing-col {
+float: left;
+overflow: hidden;
+text-align: center;
+padding: 0px 5px 0px 5px;
+background-color: #fff;
+margin-bottom: 30px;
+}
+
+.highlight{
+    margin-top:-20px;
+}
+
+.highlight-btn{
+    margin-bottom: 50px !important;
+    margin-top: 25px;
+}
+
+.highlight-title h3{
+    color:#fff;
+}
+
+.pricing-col-content{
+    border: 1px solid #ddd;
+    box-shadow: #AFAFAF 0px 0px 10px -2px;
+}
+
+.pricing-col-content h2 {
+    font-size: 50px;
+    padding:0px;
+    color:inherit;
+    margin-top: 25px;
+
+}
+
+.pricing-col-content h5{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.col-title h3{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.pricing-col ul{
+    padding-left:0px;
+    margin-bottom: 30px;
+    
+}
+.pricing-col ul li:first-child {
+border-top: 1px solid #efefef;}
+
+.pricing-col ul li {
+color: #888!important;
+padding: 10px 25px;
+list-style: none;
+line-height: 30px;
+border-bottom: 1px solid #efefef;
+border-top: none;
+}
+.col-title{
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.price-button{
+    color: #fff; 
+    margin-bottom: 30px;
+    box-shadow: 0 -2px rgba(0, 0, 0, 0.2) inset;
+    border: 0px;
+    font-size: 16px;
+    padding: 8px 20px 8px;
+    text-transform: uppercase;
+}
+.price-button:hover{
+    color:#fff;
+}
+
+
+/***!Table***/
+
+table, table tr, table tr td, table tr th {
+border: 1px solid #e5e5e5;
+padding:10px;
+font-size:inherit;
+font-family:inherit;
+margin: 10px auto 20px auto;
+}
+
+  
+/*Set height of the slide*/  
+.vertical :target{   
+     height:auto;   
+     width:100%;  
+}
+.vertical section h2 {   
+     position:relative;   
+     left:0;   
+      
+}  
+/*Set position of the number on the slide*/  
+.vertical section:after{   
+      top:-60px;  
+      left:810px;  
+}  
+.vertical section:target:after{   
+      left:-9999px;  
+} 
+
+/*Tab*/
+.tab-content{
+  padding: 15px;
+  background: #fff;
+border: 1px solid #ddd;
+border-top: none;
+}
+.nav-tabs>li>a, .panel-group .panel{border-radius: 0;}
